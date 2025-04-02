@@ -12,7 +12,7 @@ orders_df = pd.read_csv("orders.csv")
 with open("faq.json", "r") as f:
     faq_data = json.load(f)
 app = Flask(__name__)
-openai.api_key = "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"
+openai.api_key = "yourapi key"
 def chatbot_response(user_input):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
