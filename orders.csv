@@ -1,0 +1,3 @@
+OrderID,CustomerName,Status,DeliveryDate,TotalAmount
+12345,John Doe,Shipped,2025-04-05,50
+67890,Jane Smith,Delivered,2025-03-29,80
